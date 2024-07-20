@@ -1,0 +1,9 @@
+local gameID = game.GameId
+if gameID ~= 308062161 then -- Natural Disasters game ID
+print("Error: This script can only be executed in Natural Disasters.")
+game.Players.LocalPlayer:Kick("You're in the wrong game!")
+return
+end
+
+-- Rest of the script
+loadstring(game:HttpGet("https://raw.githubusercontent.com/VGXMOD99/Vgxmod-Hub-game-/main/Natural%20Disasters%20.lua.txt"))()
