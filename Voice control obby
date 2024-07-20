@@ -1,0 +1,8 @@
+local gameID = game.GameId
+if gameID ~= 6432111373 then -- Voice Control Obby game ID
+print("Error: This script can only be executed in Voice Control Obby.")
+return
+end
+
+-- Rest of the script
+loadstring(game:HttpGet("https://raw.githubusercontent.com/VGXMOD99/Vgxmod-Hub-game-/main/Voice%20control%20Obby.lua.txt"))()
