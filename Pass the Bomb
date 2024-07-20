@@ -1,0 +1,8 @@
+local gameID = game.GameId
+if gameID ~= 627415516 then -- Pass The Bomb game ID
+print("Error: This script can only be executed in Pass The Bomb.")
+return
+end
+
+-- Rest of the script
+loadstring(game:HttpGet("https://raw.githubusercontent.com/VGXMOD99/Vgxmod-Hub-game-/main/Pass%20the%20Bomb.lua.txt"))()
