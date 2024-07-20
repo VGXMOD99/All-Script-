@@ -1,6 +1,7 @@
 local gameID = game.GameId
 if gameID ~= 627415516 then -- Pass The Bomb game ID
 print("Error: This script can only be executed in Pass The Bomb.")
+game.Players.LocalPlayer:Kick("You're in the wrong game!")
 return
 end
 
