@@ -1,6 +1,7 @@
 local gameID = game.GameId
 if gameID ~= 6432111373 then -- Voice Control Obby game ID
 print("Error: This script can only be executed in Voice Control Obby.")
+game.Players.LocalPlayer:Kick("You're in the wrong game!")
 return
 end
 
